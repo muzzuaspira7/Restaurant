@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mooli&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mooli&display=swap" rel="stylesheet">
+    <!-- For Title -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Mooli&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>Chops & Hops</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="box">
+            <div class="roww a-i-c j-c-b">
+                <div class="logo">
+                    <a href="#"><Span id="Logo-name">Chops & Hops </Span></a>
+                </div>
+                <button type="button" class="nav-toggler">
+                    <span></span>
+                </button>
+                <nav class="nav">
+                    <ul>
+                        <li><a href="#" class="active">HOME</a></li>
+                        <li><a href="#h-para1" class="">ABOUT</a></li>
+                        <li><a href="#our-chef-bg" class="">CHEFS</a></li>
+                        <li><a href="#our-gallery-bg" class="">GALLERY</a></li>
+                        <li><a href="#book-table" class="">BOOK TABLE</a></li>
+                        <li><a href="#footer" class="">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- <div class="first-page">
+        <h1>Chops & Hops </h1><br>
+        <h2>Restaurant / Coffee / Pub</h2>
+        <button id="discover">DISCOVER STORY</button>
+    </div> -->
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/chickenRice.jpg" class="d-flex w-100 top-img" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="coarouselTitle">Chicken Rice</h5>
+                    <p class="coarouselTitle p">Some representative placeholder content for the first slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/fastfoodimg.jpg" class="d-block w-100 top-img" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="coarouselTitle">Fast Food</h5>
+                    <p class="coarouselTitle p">Fast food like Pizza, Burger & sandvich etc</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/southindianfoodcourso.jpg" class="d-block w-100 top-img" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="coarouselTitle">South Indian Foods</h5>
+                    <p class="coarouselTitle p">South Indian foods are much Helthier & Tasty at the same time</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- Sroll Bar -->
+    <div class="wrapper">
+    <div class="scrollbar" id="style-15">
+        <div class="force-overflow"></div>
+      </div>
+    </div>
+
+
+
+
+    <div class="cards">
+        <div class="rowOne" id="card1">
+            <img src="/img/freshFood.jpg" alt="">
+            <h3>Fresh Food</h3>
+        </div>
+        <div class="rowOne" id="card2">
+            <img src="/img/CHEF'S SPECIALS.jpg" alt="">
+            <h3>Chef's Speacial</h3>
+        </div>
+        <div class="rowOne" id="card3">
+            <img src="/img/freshMocktails.jpg" alt="">
+            <h3>MockTails</h3>
+        </div>
+        <div class="rowOne" id="card4">
+            <img src="/img/bbq.jpg" alt="">
+            <h3>Tasty Fried Items</h3>
+        </div>
+    </div>
+
+    <div class="second-page">
+        <div class="about-image">
+            <!-- <img src="/img/Restaurant Abt.avif" alt=""> -->
+            <img src="/img/About Pic new.jpg" alt="">
+            <!-- <img src="/img/Picsart_23-09-28_21-08-21-095.png" alt=""> -->
+        </div>
+        <div class="h-para1" id="h-para1">
+            <h3 class="heading">About us</h3>
+
+            <div class="paragraph">
+                <p class="dark">Welcome to Chops & Hops, a modern restaurant with a focus on premium food tastes.</p>
+                <p>Chops & Hops, located in the heart of [Ambur], is where culinary artistry meets casual elegance. Our
+                    passion lies in crafting exquisite dishes using locally-sourced, fresh ingredients,ensuring a
+                    memorable dining experience.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="dish-bg">
+        <h1 class="heading">Main Food</h1>
+        <p class="paragraph">Im damn sure, after tasting this three foods. It will make you an addiction</p>
+    </div>
+
+    <div class="three-food-list">
+        <div class="biriyani food">
+            <div class="biri-img food-img">
+                <img src="/img/Biriyaniii.jpg" alt="">
+            </div>
+            <div class="biri-para food-para">
+                <h1 class="fs-for-h1">Biriyani</h1>
+                <p class="fs-for-p">Biryani is a beloved South Asian rice dish known for its incredible flavors. It
+                    combines fragrant
+                    basmati rice with a mix of tender meat, vegetables, and an array of aromatic spices. This delightful dish is cherished for its rich taste and is prepared in various regional styles.</p>
+
+            </div>
+        </div>
+
+        <div class="fried food">
+            <div class="fried-img food-img">
+                <img src="/img/3imgbbq.jpg" alt="">
+            </div>
+            <div class="fried-para food-para">
+                <h1 class="fs-for-h1">Fried</h1>
+                <p class="fs-for-p">Biryani, with its grilled-like qualities, infuses smoky flavors into tender
+                    marinated meat and aromatic spices, creating a delightful fusion of grilling and cuisine. The result is a mouthwatering dish that captures the essence of both worlds.</p>
+            </div>
+        </div>
+
+        <div class="desert food">
+            <div class="desert-img food-img">
+                <img src="/img/dessert.jpg" alt="">
+            </div>
+            <div class="desert-para food-para">
+                <h1 class="fs-for-h1">Desert</h1>
+                <p class="fs-for-p">Desert cuisine, spanning the globe, delights with sweet treats like baklava from the Middle East,creamy kulfi in India, and crème brûlée in France. These
+                    indulgent delights, often featuring honey,nuts, and spices, offer a universal language of celebration and joy rich flavors and textures.</p>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="our-chef-bg" id="our-chef-bg">
+        <h1 class="heading">Our Best Chef</h1>
+        <p class="paragraph">We have an Experienced Chef </p>
+    </div>
+
+
+
+
+    <section class="sec-4" id="chef">
+        <div class="card-container">
+            <div class="card" data-tilt data-tilt-scale="1.1">
+                <img src="/img/ehti.jpg" alt="chef Image">
+                <div class="card-cont">
+                    <h2>Ehtisham</h2>
+                    <p>chef</p>
+                </div>
+            </div>
+            <div class="card" data-tilt>
+                <img src="/img/raiyan.jpg" alt="chef Image">
+                <div class="card-cont">
+                    <h2>Raiyan</h2>
+                    <p>Chef</p>
+                </div>
+            </div>
+            <div class="card" data-tilt>
+                <img src="/img/jonathan.jpg" alt="chef image">
+                <div class="card-cont">
+                    <h2>Jonathan</h2>
+                    <p>Chef</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Galary -->
+
+    <div class="our-galary-bg" id="our-gallery-bg">
+        <h1 class="heading">Gallery</h1>
+        <p class="paragraph">will write soon</p>
+    </div>
+
+    <!-- Gallery Grid button -->
+    <section class="gallery">
+    <div class="buttons">
+        <button  type="button"data-btn="0">All</button>
+        <button  type="button" data-btn="1">BreakFast</button>
+        <button  type="button" data-btn="2">Lunch</button>
+        <button  type="button" data-btn="3">Dinner</button>
+    </div>
+    <div class="images">
+        <img src="/img/04-small.jpg" data-img="1" alt="">
+        <img src="/img/06-small.jpg" data-img="2" alt="">
+        <img src="/img/03-small.jpg" data-img="3" alt="">
+        <img src="/img/07-small.jpg" data-img="2" alt="">
+        <img src="/img/08-small.jpg" data-img="1" alt="">
+        <img src="/img/05-small.jpg" data-img="3" alt="">
+        <img src="/img/09-small.jpg" data-img="3" alt="">
+        <img src="/img/01-small.jpg" data-img="1" alt="">
+    <img src="/img/large1.jpg" data-img="2" alt="">
+    <img src="/img/02-small.jpg" data-img="1" alt="">
+    <img src="/img/large2.jpg" data-img="2" alt="">
+    <img src="/img/large3.jpg" data-img="1" alt="">
+</div>
+</section>
+
+
+
+
+
+
+<div class="reserve-bg" id="book-table">
+    <h1 class="heading">Reservation</h1>
+
+    <div class="container">
+        <div class="reservation-form">
+            <h2>Book Your Table</h2>
+            <form name="reservationForm" method="post">
+                <label for="fullName">Full Name:</label>
+                <input type="text" id="fullName" name="fullName" required>
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required>
+    
+                <label for="time">Time:</label>
+                <input type="time" id="time" name="time" required>
+    
+                <label for="members">No. of Members:</label>
+                <input type="number" id="members" name="members" required>
+    
+                <button type="button" id="validate-submit" onclick="validateForm()">Submit</button>
+            </form>
+            <p class="confirmation-message" id="confirmationMessage"></p>
+        </div>
+    </div>
+
+
+
+
+
+    
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <div class="contact-container"> -->
+        <!-- <div class="section-title">
+            <h1>CONTACT FORM</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est consectetur dolorum deserunt!</p>
+        </div> -->
+
+        <!-- <div class="form"> -->
+            
+                <!-- <input class="write" type="text" id="name" placeholder="Name">
+                <input class="write" type="email" id="email" placeholder="Email"> <br>
+                <textarea class="write" name="message" placeholder="Message" id="message" cols="30"
+                    rows="10"></textarea>
+                <br> -->
+                <!-- <button id="send">SEND MESSAGE</button> -->
+
+            
+        <!-- </div> -->
+    <!-- </div> -->
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="firstfooter">
+            <div class="footerpara" id="address">
+                <h3>ADDRESS</h3>
+                <p>Heaven Road in bypass Ambur</p>
+                <p>635802</p>
+
+            </div>
+            <div class="footerpara" id="opening-hours">
+                <h3>OPENING HOURS</h3>
+                <p>Mon-Thurs:10:00 AM - 11:00 PM</p>
+                <p>Fri-Sun: 11:00 AM - 02:00 AM</p>
+
+            </div>
+            <div class="footerpara" id="contact-info">
+                <h3>CONTACT INFO</h3>
+                <p>Phone: +1 123 456 1234</p>
+                <p>Email: chopsnhops@res.com</p>
+
+            </div>
+        </div>
+
+        <div class="secondfooter">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-google-plus-g"></i>
+
+            <p>© 2016 Chops & Hops. All rights reserved. Designed by Muzammil</p>
+
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="/script.js"></script>
+    <!-- <script src="tilt.jquery.js"></script> -->
+
+</body>
+
+</html>

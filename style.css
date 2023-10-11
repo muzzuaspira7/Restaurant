@@ -51,27 +51,6 @@ body {
 											  #9fd8ef 51%,
 											  #2ab0ed 100%);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #Logo-name {
     font-family: CursiveLogo;
     font-size: 45px;
@@ -221,9 +200,6 @@ ul {
     margin-top: 0;
     margin-bottom: 0;
 }
-
-
-
 .scrolled {
     background-color: black;
     height: 70px;

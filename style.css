@@ -856,16 +856,15 @@ input[type="number"]{
     }
 }
 
-@media(max-width:700px){
-.h-para1 {
-    width: 100%;
-    /* margin: auto; */
-    padding-top: 25px;
-    padding-left: 10px;
-}
-}
+
 
 @media(max-width:700px){
+    .h-para1 {
+        width: 100%;
+        /* margin: auto; */
+        padding-top: 25px;
+        padding-left: 10px;
+    }
     .heading {
         font-family: AllHeadings;
         font-size: 70px;
@@ -895,7 +894,7 @@ input[type="number"]{
 }
 
 /* Paralex Font Size */
-@media(max-width:320px){
+@media(max-width:350px){
     .dish-bg h1, .our-chef-bg h1, .our-galary-bg h1 {
         font-size: 44px;
     }
@@ -914,9 +913,16 @@ input[type="number"]{
     .dish-bg .paragraph, .our-chef-bg .paragraph, .our-galary-bg .paragraph {
         font-size: 15px;
     }
+    .about-image img {
+        height: 34vh;
+    }
 
 }
-
+@media (max-width: 420px){
+.about-image img {
+    height: 28vh;
+}
+}
 
 @media(max-width:991px) {
     .nav-toggler {

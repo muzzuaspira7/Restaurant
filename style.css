@@ -658,6 +658,7 @@ ul {
     background-color:#262626;
     height: auto;
     align-items: center;
+    text-align: center;
     padding: 50px;
     padding-top: 75px;
 }
